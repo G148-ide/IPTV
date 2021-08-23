@@ -94,12 +94,13 @@ http://syarman.hexat.com/INDONESIA%20HD/rcti.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/2/2e/INews_TV_logo.png" group-title="Local Channel",[131] iNews TV
 https://cdn-livetv.metube.id/hls/inewstv_480/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_citradangdut_small.png" group-title="Local Channel", Citra Dangdut
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_citradangdut_small.png" group-title="Local Channel", [132] Citra Dangdut
 https://mkctvbro.my.id/horas/pakailah.m3u8?id=citradangdut&bandwidth=default&sync=0
 
-#EXTINF:-1 tvg-id="ANTV.MACAN" tvg-name="TVRI SPORT" tvg-logo="https://i.ibb.co/Qfk95m3/jc.png" group-title="Local Channel",TVRI SPORT HD
+#EXTINF:-1 tvg-id="ANTV.MACAN" tvg-name="TVRI SPORT" tvg-logo="https://i.ibb.co/Qfk95m3/jc.png" group-title="Local Channel",[133] TVRI SPORT HD
 http://118.97.50.107/Content/HLS/Live/Channel(TVRI4)/index.m3u8
-#EXTINF:-1 tvg-id="Erz.elshinta" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnX1DCohludH10nERACPzKHyyUxgX_PlOdA&usqp=CAU" group-title="Local Channel",Elshinta TV
+
+#EXTINF:-1 tvg-id="Erz.elshinta" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnX1DCohludH10nERACPzKHyyUxgX_PlOdA&usqp=CAU" group-title="Local Channel",[134] Elshinta TV
 http://syarman.hexat.com/INDONESIA%20HD/elshinta.m3u8
 
 
