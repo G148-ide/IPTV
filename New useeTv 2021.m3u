@@ -1,18 +1,14 @@
 #EXTM3U
 
 #LOCAL
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[002] USee Sport 1
 rtp://@239.1.1.101:8580
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[003] Usee Sport 2
 rtp://@239.1.1.53:8292
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[007] Usee Otomoto
-rtp://@239.1.1.252:9486
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[088] Usee Prime
-rtp://@239.1.1.216:9270
+#EXTINF:-1 tvg-id="ANTV.MACAN" tvg-name="TVRI SPORT" tvg-logo="https://i.ibb.co/Qfk95m3/jc.png" group-title="Local Channel",[133] TVRI SPORT HD
+http://118.97.50.107/Content/HLS/Live/Channel(TVRI4)/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/5/59/TVRI_Logo.png" group-title="Local Channel",[100] TVRI
 rtp://@239.1.1.37:8196
@@ -55,9 +51,6 @@ https://cubmu.superzap.xyz:8279/mnctv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GT70CtB/20200225-084711.png" group-title="Local Channel",[130] RCTI
 https://cubmu.superzap.xyz:8279/rcti/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ANTV.MACAN" tvg-name="TVRI SPORT" tvg-logo="https://i.ibb.co/Qfk95m3/jc.png" group-title="Local Channel",[133] TVRI SPORT HD
-http://118.97.50.107/Content/HLS/Live/Channel(TVRI4)/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.beritasatu.com/assets/desktop/v2/images/logo-gede.png" group-title="Local Channel",[115]Berita Satu
 rtp://@239.1.1.183:9072
@@ -391,13 +384,6 @@ rtp://@239.1.1.177:9036
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/800px-FOX_Sports_logo.svg.png" group-title="SPORT",[705] FOX Sport 
 rtp://@239.1.1.103:8592
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2015_Fox_sports_logo.svg/800px-2015_Fox_sports_logo.svg.png" group-title="SPORT",[706] FOX Sport 2
-rtp://@239.1.1.101:8580
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fox_sports_3_logo.svg/800px-Fox_sports_3_logo.svg.png" group-title="SPORT",[707] FOX Sport 3
-rtp://@239.1.1.53:8292
-
 
 #NEWS
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/800px-Euronews_2016_logo.svg.png" group-title="NEWS",[800] Euronews
