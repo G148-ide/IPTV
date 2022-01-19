@@ -1,11 +1,12 @@
 #EXTM3U
 
 #LOCAL
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[002] USee Photo
-rtp://@239.1.1.251:9498
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[003] Usee Info
-rtp://@239.1.2.126:8730
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[002] USee Sport 1
+rtp://@239.1.1.101:8580
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[003] Usee Sport 2
+rtp://@239.1.1.53:8292
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5b/UseeTV.png" group-title="Local Channel",[007] Usee Otomoto
 rtp://@239.1.1.252:9486
@@ -46,6 +47,18 @@ rtp://@239.1.1.119:8688
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/archive/2/2e/20170424142145%21Logo-Kompas_TV.png" group-title="Local Channel",[114] Kompas TV
 rtp://@239.1.1.197:9156
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Tg53dB7/20200225-085803.png" group-title="Local Channel",[128] GTV
+https://cubmu.superzap.xyz:8279/gtv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3Bk8qLp/20200225-084949.png" group-title="Local Channel",[129] MNC TV
+https://cubmu.superzap.xyz:8279/mnctv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GT70CtB/20200225-084711.png" group-title="Local Channel",[130] RCTI
+https://cubmu.superzap.xyz:8279/rcti/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ANTV.MACAN" tvg-name="TVRI SPORT" tvg-logo="https://i.ibb.co/Qfk95m3/jc.png" group-title="Local Channel",[133] TVRI SPORT HD
+http://118.97.50.107/Content/HLS/Live/Channel(TVRI4)/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://www.beritasatu.com/assets/desktop/v2/images/logo-gede.png" group-title="Local Channel",[115]Berita Satu
 rtp://@239.1.1.183:9072
 
@@ -82,23 +95,11 @@ rtp://@239.1.1.176:9030
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f2/Logo_tvedukasi_baru.png" group-title="Local Channel",[127] TV Edukasi
 rtp://@239.1.1.39:8208
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Tg53dB7/20200225-085803.png" group-title="Local Channel",[128] GTV
-http://syarman.hexat.com/INDONESIA%20HD/gtv.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/3Bk8qLp/20200225-084949.png" group-title="Local Channel",[129] MNC TV
-http://syarman.hexat.com/INDONESIA%20HD/mnctv.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/GT70CtB/20200225-084711.png" group-title="Local Channel",[130] RCTI
-http://syarman.hexat.com/INDONESIA%20HD/rcti.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/2/2e/INews_TV_logo.png" group-title="Local Channel",[131] iNews TV
 https://cdn-livetv.metube.id/hls/inewstv_480/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_citradangdut_small.png" group-title="Local Channel", [132] Citra Dangdut
 https://mkctvbro.my.id/horas/pakailah.m3u8?id=citradangdut&bandwidth=default&sync=0
-
-#EXTINF:-1 tvg-id="ANTV.MACAN" tvg-name="TVRI SPORT" tvg-logo="https://i.ibb.co/Qfk95m3/jc.png" group-title="Local Channel",[133] TVRI SPORT HD
-http://118.97.50.107/Content/HLS/Live/Channel(TVRI4)/index.m3u8
 
 #EXTINF:-1 tvg-id="Erz.elshinta" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnX1DCohludH10nERACPzKHyyUxgX_PlOdA&usqp=CAU" group-title="Local Channel",[134] Elshinta TV
 http://syarman.hexat.com/INDONESIA%20HD/elshinta.m3u8
